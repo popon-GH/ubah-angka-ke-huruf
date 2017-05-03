@@ -2,10 +2,6 @@ angka = raw_input("Masukan Angka:")
 #angka = 1234567890
 
 
-#Ganti angka untuk test
-#baru bisa max 3 angka
-
-
 angka_str = str(angka)
 angka_len = len(angka_str)
 angka_list = list(angka_str)
