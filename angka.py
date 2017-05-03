@@ -12,7 +12,6 @@ False = "Angka Salah"
 
 
 
-
 #FUNGSI UNTUK PRINT JIKA INPUT SATU ANGKA
 def fungsi_satu_angka():
 #  print "fungsi_satu_angka"
@@ -23,15 +22,11 @@ def fungsi_satu_angka():
   else :
     return angka_dict[str(angka)]
 
-
-
-
-
 #FUNGSI UNTUK PRINT DUA ANGKA TERAKHIR
 def fungsi_dua_angka(a,b):
 #  print "fungsi_dua_angka dipanggil.."
   if angka_list[-b] == "1" and angka_list[-a] == "0":
-    return "sepuluh"
+    return "sepuluh "
   elif angka_list[-b] == "1" and angka_list[-a] > "0" :
     return angka_dict[angka_list[-a]] + "belas "
   elif angka_list[-a] == "1" and angka_list[-b] != "0":
@@ -42,8 +37,6 @@ def fungsi_dua_angka(a,b):
     return angka_dict[angka_list[-a]]
   else :
     return angka_dict[angka_list[-b]] + "puluh " + angka_dict[angka_list[-a]]
-
-
 
 #INI FUNGSI UNTUK PRINT TIGA ANGKA TERAKHIR
 def fungsi_tiga_angka(a, b, c):
@@ -86,7 +79,9 @@ def list_ratus(a):
 def fungsi_angka_depan():
 #  print "fungsi_angka_depan dipanggil.."
   if angka_len % 3 == 1:
-    if angka_list[0] == '1':
+    if angka_list[0] == '1' and angka_len == 4 :
+      return "se" + satuan_list[angka_len//3]
+    elif angka_list[0] == '1':
       return "satu " + satuan_list[angka_len//3]
     else :
       return angka_dict[angka_list[0]] + satuan_list[angka_len//3]
