@@ -10,14 +10,6 @@ angka_dict = {"0":"", "1":"se", "2":"dua ", "3":"tiga ", "4":"empat ", "5":"lima
 list_ratus_max = (angka_len // 3) -1
 False = "Angka Salah"
 
-"""
-a = angka_len - 4
-satuan_ukur = (a)//3
-
-print "satuan_list"
-print satuan_list[satuan_ukur]
-"""
-
 
 
 
