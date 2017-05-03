@@ -94,7 +94,7 @@ def fungsi_angka_depan():
     return fungsi_dua_angka(-1,0) + satuan_list[angka_len//3]
   else:
     return "jumlah angka dapat dibagi tiga"
-#print fungsi_angka_depan() + " // "
+
 
 
 #combo sebelum tamat
