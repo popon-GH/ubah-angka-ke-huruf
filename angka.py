@@ -5,8 +5,27 @@ angka = raw_input("Masukan Angka:")
 angka_str = str(angka)
 angka_len = len(angka_str)
 angka_list = list(angka_str)
-satuan_list = ["", "ribu", "juta", "miliar", "triliun"]
-angka_dict = {"0":"", "1":"se", "2":"dua ", "3":"tiga ", "4":"empat ", "5":"lima ", "6":"enam ", "7":"tujuh ", "8":"delapan ", "9":"sembilan "}
+
+satuan_list = [
+  "",
+  "ribu",
+  "juta",
+  "miliar",
+  "triliun"
+  ]
+
+angka_dict = {
+  "0":"",
+  "1":"se",
+  "2":"dua ",
+  "3":"tiga ",
+  "4":"empat ",
+  "5":"lima ",
+  "6":"enam ",
+  "7":"tujuh ",
+  "8":"delapan ",
+  "9":"sembilan "}
+
 list_ratus_max = (angka_len // 3) -1
 False = "Angka Salah"
 
